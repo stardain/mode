@@ -1,0 +1,11 @@
+{
+    "Name": "blyadskaya valley",
+    "Author": "stardain",
+    "Version": "1.0.0",
+    "Description": "Mode includes 6 NPC homegirls, who crashed their minivan in desert while roadtripping (or simply tripping) to Belarus. Each character is romancable, has unique preferred gifts, and her own special personality. Sponsored by the 2-years anniversary of BLYADY friend group. Sincerely, N and K, the development team",
+    "UniqueID": "stardain.blyadkaya",
+    "UpdateKeys": [], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
