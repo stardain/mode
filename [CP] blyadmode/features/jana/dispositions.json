@@ -1,0 +1,36 @@
+{
+    "Changes": [
+   	 
+   	 {
+   		 "Action": "EditData",
+   		 "Target": "Data/Characters",
+   		 "Entries": {
+   			 "WrenSong": {
+   				 "DisplayName": "Jane",
+   				 "Gender": "Female", 
+   				 "Age": "Adult", 
+   				 "Manner": "Polite", 
+   				 "SocialAnxiety": "Neutral", 
+   				 "Optimism": "Neutral", 
+   				 "BirthSeason": "spring", 
+   				 "BirthDay": "16", 
+   				 "HomeRegion": "Town", 
+                 "CanSocialize":true,
+   				 "CanBeRomanced": true, 
+                 "CanReceiveGifts":true,
+                 "CanVisitIsland": false,
+   				 "SpouseAdopts": false, 
+   				 "IntroductionsQuest": false, 
+   				 "ItemDeliveryQuests": false, 
+   				 "WinterStarParticipant": false, 
+                 "FlowerDanceCanDance":false,
+                 "DumpsterDiveEmote":12,
+                 "SpouseGiftJealousyFriendshipChange":-3
+
+                }
+             
+   				
+   			 } 
+   		 }
+        ]
+    }
