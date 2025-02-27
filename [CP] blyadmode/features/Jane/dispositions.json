@@ -41,7 +41,6 @@
 				"Home": [ 
 					{
 						"Id": "Default Spawn", 
-						"Condition": false, 
 						"Location": "BusStop", 
 						"Tile": {
 							"X": 27, 

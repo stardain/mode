@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "Action": "EditData",
+            "Action": "Load",
             "Target": "Characters/Dialogue/{{Jane}}",
             "Entries": {
                 

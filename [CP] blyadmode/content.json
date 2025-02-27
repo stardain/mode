@@ -13,6 +13,11 @@
 
     "Changes": [
         
+        // портреты -- ЗАГРУЖЕНЫ
+        // расписания -- ЗАГРУЖЕНЫ
+        // диспозиции -- вроде норм
+        // вкусы в подарках -- вроде норм
+
         {
             "LogName": "Loading blank.json everywhere it's needed in the main game", 
             "Action": "Load",
@@ -21,10 +26,29 @@
         },
 
         {
+            "LogName": "Loading Jane's schedule",
+            "Action": "Load",
+            "Target": "Character/Dialogue/{{Jane}}",
+            "FromFile": "features/Jane/schedules.json"
+        },
+
+        {
             "LogName": "Adding a file with Jane's traits, automatically loads in game", 
             "Action": "Include",
             "FromFile": "features/Jane/dispositions.json"
         }, 
+
+        {
+            "LogName": "Adding a file with Jane's dialogues, automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/dialogue.json" 
+        },
+
+        {
+            "LogName": "Adding a file with Jane's gift tastes, maybe automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/gifts.json"
+        },
 
         {
             "LogName": "Loading Jane's portraits in the game", 
@@ -38,25 +62,8 @@
             "Action": "Load",
             "Target": "Characters/{{Jane}}",
             "FromFile": "features/Jane/visual/spritesheet_Jane.png"
-        },
-
-        {
-            "LogName": "Adding a file with Jane's dialogues, automatically loads in game",
-            "Action": "Include",
-            "FromFile": "features/Jane/dialogue.json" 
-        },
-
-        {
-            "LogName": "Adding a file with Jane's schedule, automatically loads in game",
-            "Action": "Include",
-            "FromFile": "features/Jane/schedules.json"
-        },
-
-        {
-            "LogName": "Adding a file with Jane's gift tastes, maybe automatically loads in game",
-            "Action": "Include",
-            "FromFile": "features/Jane/gifts.json"
         }
+
     ]
 
 }
