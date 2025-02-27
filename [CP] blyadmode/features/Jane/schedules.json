@@ -6,15 +6,7 @@
             "Target": "Characters/schedules/{{Jane}}",
             "Entries": {
 
-                "spring_Mon": "
-                1000 BusStop 27 18 3 / 
-                1200 Town 92 51 1 / 
-                1400 Town 92 51 1 / 
-                1600 Town 92 51 1 / 
-                1800 Town 92 51 1 / 
-                2000 Town 101 52 3 / 
-                2100 BusStop 24 11 3
-                ",                
+                "spring_Mon": "1000 BusStop 27 18 3/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1 /1800 Town 92 51 1/2000 Town 101 52 3/2100 BusStop 24 11 3",                
                 "spring_Tue": "
                 1100 BusStop 27 18 3 / 
                 1400 Town 92 51 1 / 
