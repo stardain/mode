@@ -1,0 +1,74 @@
+{ 
+    "Changes":
+    [
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Jane}}",
+            "Entries": {
+
+                "spring_Mon_2": "
+                1000 BusStop 27 18 3 / 
+                1200 Town 92 51 1 / 
+                1400 Town 92 51 1 / 
+                1600 Town 92 51 1 / 
+                1800 Town 92 51 1 / 
+                2000 Town 101 52 3 / 
+                2100 BusStop 24 11 3
+                ",                
+                "spring_Tue_2": "
+                1100 BusStop 27 18 3 / 
+                1400 Town 92 51 1 / 
+                1600 Town 92 51 1 / 
+                1800 Town 92 51 1 / 
+                2000 Town 101 52 3 / 
+                2100 BusStop 24 11 3 
+                ",
+                "spring_Wed_2": "
+                800 BusStop 27 18 3 / 
+                1000 Town 92 51 1 / 
+                1100 Town 92 51 1 / 
+                1300 Town 92 51 1 / 
+                1600 Town 92 51 1 / 
+                2000 Town 92 51 1 / 
+                2300 Town 92 51 1 / 
+                2400 Town 101 52 3 / 
+                2500 BusStop 24 11 3 
+                ",
+                "spring_Thu_2": "
+                900 BusStop 27 18 3 / 
+                1000 Town 92 51 1 / 
+                1100 Town 92 51 1 / 
+                1300 Town 92 51 1 / 
+                1600 Town 92 51 1 / 
+                1800 Town 101 52 3 / 
+                2000 Saloon 2 22 3 / 
+                2400 Town 39 70 3 / 
+                2500 BusStop 24 11 3
+                ",
+                "spring_Fri_2": "
+                800 BusStop 27 18 3 / 
+                1000 Town 92 51 1  / 
+                1200 Town 92 51 1 / 
+                1400 Town 92 51 1 / 
+                1800 Town 92 51 1 / 
+                2000 Saloon 43 19 3 / 
+                2300 Saloon 43 19 3 / 
+                2400 Town 39 70 3 / 
+                2500 BusStop 24 11 3
+                ",
+                "spring_Sat_2": "
+                1200 BusStop 27 18 3 / 
+                1400 Town 9 18 1 / 
+                2100 Beach 45 23 2 / 
+                2500 BusStop 24 11 3
+                ",
+                "spring_Sun_2": "
+                1000 BusStop 27 18 3 / 
+                1300 Beach 44 35 1 / 
+                1800 Saloon 43 19 3 
+                "
+            
+            }
+        }
+    ]
+}

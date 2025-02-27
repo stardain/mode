@@ -1,0 +1,162 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Jane}}",
+            "Entries": {
+                
+                //did them
+
+                "Introduction": "{{i18n:Jane.Introduction}}",
+                "DumpsterDiveComment": "{{i18n:Jane.DumpsterDiveComment}}",
+
+                "AcceptBirthdayGift_Loved": "{{i18n:Jane.BD.PerfectGift}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Jane.BD.GoodGift}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:Jane.BD.NormalGift}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:Jane.BD.BadGift}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:Jane.BD.HatedGift}}",
+
+                "AcceptGift_Loved": "{{i18n:Jane.PerfectGift}}",
+                "AcceptGift_Liked": "{{i18n:Jane.GoodGift}}",
+                "AcceptGift_Neutral": "{{i18n:Jane.NormalGift}}",
+                "AcceptGift_Disliked": "{{i18n:Jane.BadGift}}",
+                "AcceptGift_Hated": "{{i18n:Jane.HatedGift}}",
+
+                "spring_Mon2": "{{i18n:Jane.SprMon.LowHeart}}",
+                "spring_Tue2": "{{i18n:Jane.SprTue.LowHeart}}",
+                "spring_Wed2": "{{i18n:Jane.SprWed.LowHeart}}",
+                "spring_Thu2": "{{i18n:Jane.SprThu.LowHeart}}",
+                "spring_Fri2": "{{i18n:Jane.SprFri.LowHeart}}",
+                "spring_Sat2": "{{i18n:Jane.SprSat.LowHeart}}",
+                "spring_Sun2": "{{i18n:Jane.SprSun.LowHeart}}",
+
+                "spring_Mon4": "{{i18n:Jane.SprMon.MidHeart}}",
+                "spring_Mon6": "{{i18n:Jane.SprMon.MidHeart}}",
+                "spring_Tue4": "{{i18n:Jane.SprTue.MidHeart}}",
+                "spring_Tue6": "{{i18n:Jane.SprTue.MidHeart}}",
+                "spring_Wed4": "{{i18n:Jane.SprWed.MidHeart}}",
+                "spring_Wed6": "{{i18n:Jane.SprWed.MidHeart}}",
+                "spring_Thu4": "{{i18n:Jane.SprThu.MidHeart}}",
+                "spring_Thu6": "{{i18n:Jane.SprThu.MidHeart}}",
+                "spring_Fri4": "{{i18n:Jane.SprFri.MidHeart}}",
+                "spring_Fri6": "{{i18n:Jane.SprFri.MidHeart}}",
+                "spring_Sat4": "{{i18n:Jane.SprSat.MidHeart}}",
+                "spring_Sat6": "{{i18n:Jane.SprSat.MidHeart}}",
+                "spring_Sun4": "{{i18n:Jane.SprSun.MidHeart}}",
+                "spring_Sun6": "{{i18n:Jane.SprSun.MidHeart}}",
+
+                "spring_Saloon2": "{{i18n:Jane.SprSaloon.LowHeart}}",
+                "spring_Saloon4": "{{i18n:Jane.SprSaloon.MidHeart}}",
+                "spring_Saloon6": "{{i18n:Jane.SprSaloon.MidHeart}}",
+                
+                "FlowerDance_Accept": "{{i18n:Jane.FlowerDance_Accept}}",
+                "FlowerDance_Decline": "{{i18n:Jane.FlowerDance_Decline}}",
+
+                "spring_13_1": "{{i18n:Jane.EggFest.FirstYear}}",
+                "spring_13_2": "{{i18n:Jane.EggFest.NextYears}}",
+
+
+
+
+
+
+                //to be done
+
+                "spring_Mon": "Хмммм.",
+                "spring_Mon": "Хмммм.",
+                "spring_Tue": "Хмммм.",
+                "spring_Tue": "Хмммм.",
+                "spring_Wed": "Хмммм.",
+                "spring_Wed": "Хмммм.",
+                "spring_Thu": "Хмммм.",
+                "spring_Thu": "Хмммм.",
+                "spring_Fri": "Хмммм.",
+                "spring_Fri": "Хмммм.",
+                "spring_Sat": "Хмммм.",
+                "spring_Sat": "Хмммм.",
+                "spring_Sun": "Хмммм.",
+                "spring_Sun": "Хмммм.",
+
+                "GreenRain": "Хмммм.",
+                "GreenRainFinished": "Хмммм.",
+                
+                "MovieInvitation": "Хмммм.",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Хмммм.",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "Хмммм.",
+                "RejectMovieTicket_Divorced": "Хмммм.",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "Хмммм.",
+                "RejectMovieTicket": "Хмммм.",
+                
+                "breakUp": "Хмммм.",
+                "dating_EdelweissSeung_memory_oneyear": "Хмммм.",
+                "RejectBouquet_NotDatable": "Хмммм.",
+                "RejectBouquet_NpcAlreadyMarried": "Хмммм.",
+                "RejectBouquet_VeryLowHearts": "Хмммм.",
+                "RejectBouquet_LowHearts": "Хмммм.",
+                "RejectBouquet": "Хмммм.",
+                
+                "Resort": "Хмммм.",
+                "Resort_Bar": "Хмммм.",
+                "Resort_Chair": "Хмммм.",
+                "Resort_Dance": "Хмммм.",
+                "Resort_Entering": "Хмммм.",
+                "Resort_Leaving": "Хмммм.",
+                "Resort_Shore": "Хмммм.",
+                "Resort_Towel": "Хмммм.",
+                "Resort_Umbrella": "Хмммм.",
+                "Resort_Wander": "Хмммм.",
+                
+                "AcceptBouquet": "Хмммм.",
+                
+                "HitBySlingshot": "Хмммм.",
+
+                //summer
+                "summer_Mon": "Хмммм.",
+                "summer_Tue": "Хмммм.",
+                "summer_Wed": "Хмммм.",
+                "summer_Thu": "Хмммм.",
+                "summer_Fri": "Хмммм.",
+                "summer_Sat": "Хмммм.",
+                "summer_Sun": "Хмммм.",
+                //fall
+                "fall_Mon": "Хмммм.",
+                "fall_Tue": "Хмммм.",
+                "fall_Wed": "Хмммм.",
+                "fall_Thu": "Хмммм.",
+                "fall_Fri": "Хмммм.",
+                "fall_Sat": "Хмммм.",
+                "fall_Sun": "Хмммм.",
+                //fair
+                "Fair_Judging": "Хмммм.",
+                "Fair_Judged_PlayerLost_PurpleShorts": "Хмммм.",
+                "Fair_Judged_PlayerLost_Skipped": "Хмммм.",
+                "Fair_Judged_PlayerLost": "Хмммм.",
+                "Fair_Judged_PlayerWon": "Хмммм.",
+                "Fair_Judged": "Хмммм.",
+                //winter
+                "winter_Mon": "Хмммм.",
+                "winter_Tue": "Хмммм.",
+                "winter_Wed": "Хмммм.",
+                "winter_Thu": "Хмммм.",
+                "winter_Fri": "Хмммм.",
+                "winter_Sat": "Хмммм.",
+                "winter_Sun": "Хмммм.",
+                //winter star
+                "WinterStar_GiveGift_Before_Spouse": "Хмммм.",
+                "WinterStar_GiveGift_Before": "Хмммм.",
+                "WinterStar_GiveGift_After_Spouse": "Хмммм.",
+                "WinterStar_GiveGift_After": "Хмммм.",
+                "WinterStar_ReceiveGift": "Хмммм.",
+
+            }
+        }
+        {
+            "LogName": "Summit Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_{{Jane}}": "Хмммм."
+            }
+        }
+    ]
+}

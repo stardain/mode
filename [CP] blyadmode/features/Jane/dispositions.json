@@ -1,0 +1,67 @@
+{ "Changes": [
+        
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{Jane}}": {
+				"BirthSeason": "spring",
+				"BirthDay": "16",
+				"HomeRegion": "Town", 
+				"Language": "Default",
+				"Gender": "Female", 
+				"Age": "Adult", 
+				"Manner": "Polite", 
+				"SocialAnxiety": "Neutral", 
+				"Optimism": "Neutral", 
+				"IsDarkSkinned": false, 
+				"CanBeRomanced": true, 
+				"Calendar": "AlwaysShown", 
+				"SocialTab": "HiddenUntilMet", 
+				"CanSocialize": true, 
+				"CanReceiveGifts": true, 
+				"CanGreetNearbyCharacters": true, 
+				"CanCommentOnPurchasedShopItems": false, 
+				"CanVisitIsland": true, 
+				"IntroductionsQuest": true, 
+				"ItemDeliveryQuests": true, 
+				"PerfectionScore": true, 
+				"EndSlideShow": "TrailingGroup", 
+				"SpouseAdopts": false, 
+				"SpouseWantsChildren": true, 
+				"SpouseGiftJealousy": true, 
+				"SpouseGiftJealousyFriendshipChange": -30, 
+				"DumpsterDiveFriendshipEffect": -1, 
+				"DumpsterDiveEmote": 12, 
+				"FlowerDanceCanDance": true, 
+				"WinterStarGifts": [], 
+				"WinterStarParticipant": true, 
+				"UnlockConditions": false, 
+				"SpawnIfMissing": true, 
+				"Home": [ 
+					{
+						"Id": "Default Spawn", 
+						"Condition": false, 
+						"Location": "BusStop", 
+						"Tile": {
+							"X": 27, 
+							"Y": 18 
+						},
+						"Direction": "left"
+					}
+				],
+				"Appearance": null, 
+				"MugShotSourceRect": null, 
+				"Size": {
+					"X": 16,
+					"Y": 32
+				},
+				"Breather": true,
+				"ShakePortraits": [28], 
+				"KissSpriteIndex": 30, 
+				"KissSpriteFacingRight": true
+			}
+		}
+	}
+]
+} 

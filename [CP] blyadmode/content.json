@@ -6,86 +6,58 @@
 
     "DynamicTokens": [
         {
-            "Name": "<NPCNAME>",
-            "Value": "{{ModId}}_<NPCNAME>"
+            "Name": "Jane",
+            "Value": "{{ModId}}_Jane"
         }
     ],
 
     "Changes": [
+        
         {
-            "LogName": "Editing dispositions",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "{{ModId}}_<NPCNAME>": {
-                    "BirthSeason": "spring",
-                    "BirthDay": "16",
-                    "HomeRegion": "Town", 
-                    "Language": "Default",
-                    "Gender": "Female", 
-                    "Age": "Adult", 
-                    "Manner": "Polite", 
-                    "SocialAnxiety": "Neutral", 
-                    "Optimism": "Neutral", 
-                    "IsDarkSkinned": false, 
-                    "CanBeRomanced": true, 
-                    "Calendar": "AlwaysShown", 
-                    "SocialTab": "HiddenUntilMet", 
-                    "CanSocialize": true, 
-                    "CanReceiveGifts": true, 
-                    "CanGreetNearbyCharacters": true, 
-                    "CanCommentOnPurchasedShopItems": false, 
-                    "CanVisitIsland": true, 
-                    "IntroductionsQuest": true, 
-                    "ItemDeliveryQuests": true, 
-                    "PerfectionScore": true, 
-                    "EndSlideShow": "TrailingGroup", 
-                    "SpouseAdopts": false, 
-                    "SpouseWantsChildren": true, 
-                    "SpouseGiftJealousy": true, 
-                    "SpouseGiftJealousyFriendshipChange": -30, 
-                    "DumpsterDiveFriendshipEffect": -1, 
-                    "DumpsterDiveEmote": 12, 
-                    "FlowerDanceCanDance": true, 
-                    "WinterStarGifts": [], 
-                    "WinterStarParticipant": true, 
-                    "UnlockConditions": false, 
-                    "SpawnIfMissing": true, 
-                    "Home": [ 
-                        {
-                            "Id": "Default Spawn", 
-                            "Condition": false, 
-                            "Location": "BusStop", 
-                            "Tile": {
-                                "X": 27, 
-                                "Y": 18 
-                            },
-                            "Direction": "left"
-                        }
-                    ],
-                    "TextureName": null,
-                    "Appearance": null, 
-                    "MugShotSourceRect": null, 
-                    "Size": {
-                        "X": 16,
-                        "Y": 32
-                    },
-                    "Breather": true,
-                    "ShakePortraits": [28], 
-                    "KissSpriteIndex": 30, 
-                    "KissSpriteFacingRight": true
-                }
-            }
+            "LogName": "Loading blank.json everywhere it's needed in the main game", 
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{Jane}}, Characters/schedules/{{Jane}}, Strings/schedules/{{Jane}}",
+            "FromFile": "features/blank.json"
+        },
+
+        {
+            "LogName": "Adding a file with Jane's traits, automatically loads in game", 
+            "Action": "Include",
+            "FromFile": "features/Jane/dispositions.json"
+        }, 
+
+        {
+            "LogName": "Loading Jane's portraits in the game", 
+            "Action": "Load",
+            "Target": "Portraits/{{Jane}}",
+            "FromFile": "features/Jane/visual/portrait_Jane.png"
+        },
+
+        {
+            "LogName": "Loading Jane's sprites",
+            "Action": "Load",
+            "Target": "Characters/{{Jane}}",
+            "FromFile": "features/Jane/visual/spritesheet_Jane.png"
+        },
+
+        {
+            "LogName": "Adding a file with Jane's dialogues, automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/dialogue.json" 
+        },
+
+        {
+            "LogName": "Adding a file with Jane's schedule, automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/schedules.json"
+        },
+
+        {
+            "LogName": "Adding a file with Jane's gift tastes, maybe automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/gifttastes.json"
         }
     ]
 
 }
 
-//
-
-//
-
-
-//
-
-//
