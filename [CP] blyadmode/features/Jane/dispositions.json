@@ -17,7 +17,7 @@
 				"IsDarkSkinned": false, 
 				"CanBeRomanced": true, 
 				"Calendar": "AlwaysShown", 
-				"SocialTab": "HiddenUntilMet", 
+				"SocialTab": "AlwaysShown", 
 				"CanSocialize": true, 
 				"CanReceiveGifts": true, 
 				"CanGreetNearbyCharacters": true, 
