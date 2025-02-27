@@ -55,7 +55,7 @@
         {
             "LogName": "Adding a file with Jane's gift tastes, maybe automatically loads in game",
             "Action": "Include",
-            "FromFile": "features/Jane/gifttastes.json"
+            "FromFile": "features/Jane/gifts.json"
         }
     ]
 

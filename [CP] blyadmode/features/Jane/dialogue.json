@@ -5,8 +5,6 @@
             "Target": "Characters/Dialogue/{{Jane}}",
             "Entries": {
                 
-                //did them
-
                 "Introduction": "{{i18n:Jane.Introduction}}",
                 "DumpsterDiveComment": "{{i18n:Jane.DumpsterDiveComment}}",
 
@@ -60,21 +58,14 @@
 
 
 
-                //to be done
+                
 
                 "spring_Mon": "Хмммм.",
-                "spring_Mon": "Хмммм.",
-                "spring_Tue": "Хмммм.",
                 "spring_Tue": "Хмммм.",
                 "spring_Wed": "Хмммм.",
-                "spring_Wed": "Хмммм.",
-                "spring_Thu": "Хмммм.",
                 "spring_Thu": "Хмммм.",
                 "spring_Fri": "Хмммм.",
-                "spring_Fri": "Хмммм.",
                 "spring_Sat": "Хмммм.",
-                "spring_Sat": "Хмммм.",
-                "spring_Sun": "Хмммм.",
                 "spring_Sun": "Хмммм.",
 
                 "GreenRain": "Хмммм.",
@@ -110,7 +101,6 @@
                 
                 "HitBySlingshot": "Хмммм.",
 
-                //summer
                 "summer_Mon": "Хмммм.",
                 "summer_Tue": "Хмммм.",
                 "summer_Wed": "Хмммм.",
@@ -118,7 +108,7 @@
                 "summer_Fri": "Хмммм.",
                 "summer_Sat": "Хмммм.",
                 "summer_Sun": "Хмммм.",
-                //fall
+                
                 "fall_Mon": "Хмммм.",
                 "fall_Tue": "Хмммм.",
                 "fall_Wed": "Хмммм.",
@@ -126,14 +116,14 @@
                 "fall_Fri": "Хмммм.",
                 "fall_Sat": "Хмммм.",
                 "fall_Sun": "Хмммм.",
-                //fair
+                
                 "Fair_Judging": "Хмммм.",
                 "Fair_Judged_PlayerLost_PurpleShorts": "Хмммм.",
                 "Fair_Judged_PlayerLost_Skipped": "Хмммм.",
                 "Fair_Judged_PlayerLost": "Хмммм.",
                 "Fair_Judged_PlayerWon": "Хмммм.",
                 "Fair_Judged": "Хмммм.",
-                //winter
+                
                 "winter_Mon": "Хмммм.",
                 "winter_Tue": "Хмммм.",
                 "winter_Wed": "Хмммм.",
@@ -141,15 +131,15 @@
                 "winter_Fri": "Хмммм.",
                 "winter_Sat": "Хмммм.",
                 "winter_Sun": "Хмммм.",
-                //winter star
+                
                 "WinterStar_GiveGift_Before_Spouse": "Хмммм.",
                 "WinterStar_GiveGift_Before": "Хмммм.",
                 "WinterStar_GiveGift_After_Spouse": "Хмммм.",
                 "WinterStar_GiveGift_After": "Хмммм.",
-                "WinterStar_ReceiveGift": "Хмммм.",
+                "WinterStar_ReceiveGift": "Хмммм."
 
             }
-        }
+        },
         {
             "LogName": "Summit Dialogue",
             "Action": "EditData",
