@@ -1,0 +1,49 @@
+{
+    "Format": "2.5.3",
+
+    "Changes": [
+
+        {
+            "LogName": "Loading Jane's schedule",
+            "Action": "Load",
+            "Target": "Character/schedules/Jane",
+            "FromFile": "features/Jane/schedules.json"
+        },
+
+        {
+            "LogName": "Adding a file with Jane's traits, automatically loads in game", 
+            "Action": "Include",
+            "FromFile": "features/Jane/dispositions.json"
+        }, 
+
+        {
+            "LogName": "Adding a file with Jane's dialogues, automatically loads in game",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Jane",
+            "FromFile": "features/Jane/dialogue.json" 
+        },
+
+        {
+            "LogName": "Adding a file with Jane's gift tastes, maybe automatically loads in game",
+            "Action": "Include",
+            "FromFile": "features/Jane/gifts.json"
+        },
+
+        {
+            "LogName": "Loading Jane's portraits in the game", 
+            "Action": "Load",
+            "Target": "Portraits/Jane",
+            "FromFile": "features/Jane/visual/portrait_Jane.png"
+        },
+
+        {
+            "LogName": "Loading Jane's sprites",
+            "Action": "Load",
+            "Target": "Characters/Jane",
+            "FromFile": "features/Jane/visual/spritesheet_Jane.png"
+        }
+
+    ]
+
+}
+
