@@ -6,7 +6,7 @@
         {
             "LogName": "Loading Jane's schedule",
             "Action": "Load",
-            "Target": "Character/schedules/Jane",
+            "Target": "Characters/schedules/Jane",
             "FromFile": "features/Jane/schedule.json"
         },
 
