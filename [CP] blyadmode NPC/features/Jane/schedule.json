@@ -1,42 +1,50 @@
 {
 
-  "spring": "800 BusStop 27 18/900 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "spring_Mon": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "spring_Tue": "1100 BusStop 27 18/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1/2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "spring_Wed": "800 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/2000 Town 92 51 1/2300 Town 92 51 1/2400 Town 101 52 3/2500 BusStop 24 11 3",
-  "spring_Thu": "900 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/1800 Town 101 52 3/2000 Saloon 2 22 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "spring_Fri": "800 BusStop 27 18/1000 Town 92 51 1 /1200 Town 92 51 1/1400 Town 92 51 1/1800 Town 92 51 1/2000 Saloon 43 19 3/2300 Saloon 43 19 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "spring_Sat": "1200 BusStop 27 18/1400 Town 9 18 1/2100 Beach 45 23 2/2500 BusStop 24 11 3",
-  "spring_Sun": "1000 BusStop 27 18/1300 Beach 44 35 1/1800 Saloon 43 19 3",
+  // BusStop 27 18 3 - BusStop 24 11 0 
+  // JojaMart 18 25 1
+  // Saloon 43 19 3 - ,  Saloon 2 22 3 (одна)
+  // jane_smoking
+  // jane_reading
 
-  "summer": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "summer_Mon": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "summer_Tue": "1100 BusStop 27 18/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1/2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "summer_Wed": "800 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/2000 Town 92 51 1/2300 Town 92 51 1/2400 Town 101 52 3/2500 BusStop 24 11 3",
-  "summer_Thu": "900 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/1800 Town 101 52 3/2000 Saloon 2 22 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "summer_Fri": "800 BusStop 27 18/1000 Town 92 51 1 /1200 Town 92 51 1/1400 Town 92 51 1/1800 Town 92 51 1/2000 Saloon 43 19 3/2300 Saloon 43 19 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "summer_Sat": "1200 BusStop 27 18/1400 Town 9 18 1/2100 Beach 45 23 2/2500 BusStop 24 11 3",
-  "summer_Sun": "1000 BusStop 27 18/1300 Beach 44 35 1/1800 Saloon 43 19 3",
+  "spring": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
+  "spring_Mon": "1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
+  "spring_Tue": "1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
+  "spring_Wed": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 раб/1400 раб/1600 раб/1800 раб/2000 раб/2100 раб/2300 раб/2400 порог жожа jane_smoking/2430 BusStop 24 11 0/2500 пропадает",
+  "spring_Thu": "900 BusStop 27 18 3 jane_smoking/1000 JojaMart 18 25 1/1200 раб/1300 раб/1400 раб/1600 раб/1800 порог жожа jane_smoking/1830 Saloon 2 22 3 сидит/2000 бухает одна/2100 бухает одна/2300 бухает одна/2400 возле салуна jane_smoking/2440 BusStop 24 11 0/2500 пропадает",
+  "spring_Fri": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 пропадает/1400 раб/1600 раб/1800 раб/1900 Saloon 43 19 3/2100 салун бляди/2300 салун бляди/2400 BusStop 24 11 0/2500 пропадает",
+  "spring_Sat": "1200 BusStop 27 18 3 jane_smoking/1300 парк/1400 парк jane_reading/1600 парк пересела jane_reading/1800 парк пересела jane_reading/2000 пляж релаксировать/2100 пляж релаксирует jane_smoking/2300 BusStop 24 11 0/2500 пропадает",
+  "spring_Sun": "1000 BusStop 27 18 3 jane_smoking/1100 пляж очищать лёгкие/1300 пляж очищает лёгкие/1400 пляж перешла очищает лёгкие/1600 салун с блядями/1800/2000/2100/2300/2400/2500/2500",
 
-  "fall": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "fall_Mon": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",  
-  "fall_Tue": "1100 BusStop 27 18/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1/2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "fall_Wed": "800 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/2000 Town 92 51 1/2300 Town 92 51 1/2400 Town 101 52 3/2500 BusStop 24 11 3",
-  "fall_Thu": "900 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/1800 Town 101 52 3/2000 Saloon 2 22 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "fall_Fri": "800 BusStop 27 18/1000 Town 92 51 1 /1200 Town 92 51 1/1400 Town 92 51 1/1800 Town 92 51 1/2000 Saloon 43 19 3/2300 Saloon 43 19 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "fall_Sat": "1200 BusStop 27 18/1400 Town 9 18 1/2100 Beach 45 23 2/2500 BusStop 24 11 3",
-  "fall_Sun": "1000 BusStop 27 18/1300 Beach 44 35 1/1800 Saloon 43 19 3",
+  "summer": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
+  "summer_Mon": "1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
+  "summer_Tue": "1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
+  "summer_Wed": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 раб/1400 раб/1600 раб/1800 раб/2000 раб/2100 раб/2300 раб/2400 порог жожа jane_smoking/2430 BusStop 24 11 0/2500 пропадает",
+  "summer_Thu": "900 BusStop 27 18 3 jane_smoking/1000 JojaMart 18 25 1/1200 раб/1300 раб/1400 раб/1600 раб/1800 порог жожа jane_smoking/1830 коммцентр смотреть/2300 коммцентр смотрит под другим углом/2400 около коммцентра jane_smoking/2440 BusStop 24 11 0/2500 пропадает",
+  "summer_Fri": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 пропадает/1400 раб/1600 раб/1800 раб/1900 Saloon 43 19 3/2100 салун бляди/2300 салун бляди/2400 BusStop 24 11 0/2500 пропадает",
+  "summer_Sat": "1200 BusStop 27 18 3 jane_smoking/1300 парк/1400 парк jane_reading/1600 парк пересела jane_reading/1800 парк пересела jane_reading/2000 пляж релаксировать/2100 пляж релаксирует jane_smoking/2300 BusStop 24 11 0/2500 пропадает",
+  "summer_Sun": "1000 BusStop 27 18 3 jane_smoking/1100 к пьеру/1200 у пьера смотрит товары/1300 у пьера смотрит другие товары/1400 идёт на пикник/1800 пикник поза 1/2000 пикник поза 2/2100 пикник поза 3/2300 пикник поза 4/2400 BusStop 24 11 0/2500 пропадает",
 
-  "winter": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "winter_Mon": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "winter_Tue": "1100 BusStop 27 18/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1/2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "winter_Wed": "800 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/2000 Town 92 51 1/2300 Town 92 51 1/2400 Town 101 52 3/2500 BusStop 24 11 3",
-  "winter_Thu": "900 BusStop 27 18/1000 Town 92 51 1/1100 Town 92 51 1/1300 Town 92 51 1/1600 Town 92 51 1/1800 Town 101 52 3/2000 Saloon 2 22 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "winter_Fri": "800 BusStop 27 18/1000 Town 92 51 1 /1200 Town 92 51 1/1400 Town 92 51 1/1800 Town 92 51 1/2000 Saloon 43 19 3/2300 Saloon 43 19 3/2400 Town 39 70 3/2500 BusStop 24 11 3",
-  "winter_Sat": "1200 BusStop 27 18/1400 Town 9 18 1/2100 Beach 45 23 2/2500 BusStop 24 11 3",
-  "winter_Sun": "1000 BusStop 27 18/1300 Beach 44 35 1/1800 Saloon 43 19 3",
+  //
 
-  "rain": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
-  "rain2": "1000 BusStop 27 18/1200 Town 92 51 1/1400 Town 92 51 1/1600 Town 92 51 1/1800 Town 92 51 1 /2000 Town 101 52 3/2100 BusStop 24 11 3",
+  "fall": "1000/2100",
+  "fall_Mon": "1000/2100",  
+  "fall_Tue": "1100/2100",
+  "fall_Wed": "800/2500",
+  "fall_Thu": "900/2500",
+  "fall_Fri": "800/2500",
+  "fall_Sat": "1200/2500",
+  "fall_Sun": "1000/1800",
+
+  "winter": "1000/2100",
+  "winter_Mon": "1000/2100",
+  "winter_Tue": "1100/2100",
+  "winter_Wed": "800/2500",
+  "winter_Thu": "900/2500",
+  "winter_Fri": "800/2500",
+  "winter_Sat": "1200/2500",
+  "winter_Sun": "1000/1800",
+
+  "rain": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
+  "rain2": "800 JojaMart 18 25 1/2100 BusStop 24 11 0"
 
 }

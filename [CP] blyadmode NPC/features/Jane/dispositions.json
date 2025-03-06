@@ -46,7 +46,8 @@
 						"Tile": {
 							"X": 27, 
 							"Y": 18 
-						}
+						},
+						"Direction": "left"
 					}
 				],
 				//"Appearance": null, 
