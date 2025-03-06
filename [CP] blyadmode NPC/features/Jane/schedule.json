@@ -1,50 +1,80 @@
 {
 
-  // BusStop 27 18 3 - BusStop 24 11 0 
-  // JojaMart 18 25 1
-  // Saloon 43 19 3 - ,  Saloon 2 22 3 (одна)
   // jane_smoking
   // jane_reading
 
-  "spring": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
-  "spring_Mon": "1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
-  "spring_Tue": "1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
-  "spring_Wed": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 раб/1400 раб/1600 раб/1800 раб/2000 раб/2100 раб/2300 раб/2400 порог жожа jane_smoking/2430 BusStop 24 11 0/2500 пропадает",
-  "spring_Thu": "900 BusStop 27 18 3 jane_smoking/1000 JojaMart 18 25 1/1200 раб/1300 раб/1400 раб/1600 раб/1800 порог жожа jane_smoking/1830 Saloon 2 22 3 сидит/2000 бухает одна/2100 бухает одна/2300 бухает одна/2400 возле салуна jane_smoking/2440 BusStop 24 11 0/2500 пропадает",
-  "spring_Fri": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 пропадает/1400 раб/1600 раб/1800 раб/1900 Saloon 43 19 3/2100 салун бляди/2300 салун бляди/2400 BusStop 24 11 0/2500 пропадает",
-  "spring_Sat": "1200 BusStop 27 18 3 jane_smoking/1300 парк/1400 парк jane_reading/1600 парк пересела jane_reading/1800 парк пересела jane_reading/2000 пляж релаксировать/2100 пляж релаксирует jane_smoking/2300 BusStop 24 11 0/2500 пропадает",
-  "spring_Sun": "1000 BusStop 27 18 3 jane_smoking/1100 пляж очищать лёгкие/1300 пляж очищает лёгкие/1400 пляж перешла очищает лёгкие/1600 салун с блядями/1800/2000/2100/2300/2400/2500/2500",
+  // BusStop 27 18 3 (спавн) - Custom_DayEnd_WarpRoom 3 3 0 (деспавн)
+  // Saloon 2 22 3 (одна)
 
-  "summer": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
-  "summer_Mon": "1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
-  "summer_Tue": "1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 18 25 1/1300 пропадает/1400 раб/1600 раб/1800 раб/2000 порог жожа jane_smoking/2030 BusStop 24 11 0/2100 пропадает",
-  "summer_Wed": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 раб/1400 раб/1600 раб/1800 раб/2000 раб/2100 раб/2300 раб/2400 порог жожа jane_smoking/2430 BusStop 24 11 0/2500 пропадает",
-  "summer_Thu": "900 BusStop 27 18 3 jane_smoking/1000 JojaMart 18 25 1/1200 раб/1300 раб/1400 раб/1600 раб/1800 порог жожа jane_smoking/1830 коммцентр смотреть/2300 коммцентр смотрит под другим углом/2400 около коммцентра jane_smoking/2440 BusStop 24 11 0/2500 пропадает",
-  "summer_Fri": "800 BusStop 27 18 3 jane_smoking/900 JojaMart 18 25 1/1100 раб/1200 раб/1300 пропадает/1400 раб/1600 раб/1800 раб/1900 Saloon 43 19 3/2100 салун бляди/2300 салун бляди/2400 BusStop 24 11 0/2500 пропадает",
-  "summer_Sat": "1200 BusStop 27 18 3 jane_smoking/1300 парк/1400 парк jane_reading/1600 парк пересела jane_reading/1800 парк пересела jane_reading/2000 пляж релаксировать/2100 пляж релаксирует jane_smoking/2300 BusStop 24 11 0/2500 пропадает",
-  "summer_Sun": "1000 BusStop 27 18 3 jane_smoking/1100 к пьеру/1200 у пьера смотрит товары/1300 у пьера смотрит другие товары/1400 идёт на пикник/1800 пикник поза 1/2000 пикник поза 2/2100 пикник поза 3/2300 пикник поза 4/2400 BusStop 24 11 0/2500 пропадает",
+  // жожа (9) -- JojaMart 22 25 1 (рабочее место), Town 107 52 0 (оценивает поставку), JojaMart 26 15 3 (смотрит на оставленную тележку),
+  // JojaMart 23 5 0 (смотрит на рыбный стеллаж), JojaMart 9 4 0 (смотрит на вывеску овощи и фрукты), JojaMart 12 24 3 (сокрушается что мало сотрудников),
+  // JojaMart 18 5 0 (смотрит на молочный стеллаж), JojaMart 26 5 0 (смотрит на мясной стеллаж)
+  // понедельник -- место, поставка, место, место
+  // вторник -- место, вывеска, вывеска, вывеска
+  // среда -- рабочее место, поставка, сокрушается, тележка, молоко, рыба, мясо, вывеска, место, место
+  // четверг -- место, место, место, место, место
+  // пятница -- место, поставка, место, сокрушается, место
 
+  // салун бляди (6) -- Saloon 38 19 2 (мастится на бильярдный стол), Saloon 34 18 3 (смотрит как н играет в автомат), Saloon 43 19 3 (сидит?),
+  // Saloon 29 7 3 (смотрит на разные предметы в чулане), Saloon 25 18 0 (смотрит на медведя), Saloon 16 20 0 (делает заказ)
+  // салун весна воскресенье -- заказ, медведь, сидит, автомат, бильярд, сидит, чулан
+                                        
+  // покур у жожи -- Town 92 51 3
+  // покур у салуна одна -- Town 42 72 1
+  // покур у салуна бляди -- Town 39 73 1 (39 72 1 к)
+  // парк читает (2) -- Town 8 19 2, Town 6 17 2 (попробовать, может ли пройти)
+  // пляж релаксирует (2) -- Beach 20 24 2, Beach 44 35 1
+  // пляж очищает лёгкие (3) -- Beach 12 38 2, Beach 11 31 3, Beach 52 23 1
+  // коммцентр смотрит (2) -- Town 53 22 0, Town 56 21 0
+  // коммцентр курит -- Town 50 22 1 
+  // пьер смотрит товары (2) -- SeedShop 2 21 3, SeedShop 12 20 0
+  // пикник (4) -- Forest 29 14 0 (пикник), Forest 27 18 2 jane_reading (отошла отдохнуть), Forest 38 15 2 (сидит смотрит на воду и блядей на мосту),
+  // Forest 36 10 1 (смотрит на дерево)
+  // пикник -- пикник, читает, дерево, вода и мост
+
+  // 0 Custom_Claire_WarpRoom 1 3 3 -- Custom_DayEnd_WarpRoom 3 3 0
+
+  "spring": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Mon": "0 Custom_Claire_WarpRoom 1 3 3/1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 Town 107 52 0/1600 JojaMart 22 25 1/1800 JojaMart 22 25 1/2000 Town 92 51 3 jane_smoking/2030 Custom_DayEnd_WarpRoom 3 3 0/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Tue": "0 Custom_Claire_WarpRoom 1 3 3/1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 JojaMart 9 4 0/1600 JojaMart 9 4 0/1800 JojaMart 9 4 0/2000 Town 92 51 3 jane_smoking/2030 Custom_DayEnd_WarpRoom 3 3 0/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Wed": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3 jane_smoking/900 JojaMart 22 25 1/1100 Town 107 52 0/1200 JojaMart 12 24 3/1300 JojaMart 26 15 3/1400 JojaMart 18 5 0/1600 JojaMart 23 5 0/1800 JojaMart 26 5 0/2000 JojaMart 9 4 0/2100 JojaMart 22 25 1/2300 JojaMart 22 25 1/2400 Town 92 51 3 jane_smoking/2430 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Thu": "0 Custom_Claire_WarpRoom 1 3 3/900 BusStop 27 18 3 jane_singing/1000 JojaMart 22 25 1/1200 JojaMart 22 25 1/1300 JojaMart 22 25 1/1400 JojaMart 22 25 1/1600 JojaMart 22 25 1/1800 Town 92 51 3 jane_smoking/1830 Saloon 2 22 3 сидит/2000 Saloon 2 22 3 сидит/2100 Saloon 2 22 3 сидит/2300 Saloon 2 22 3 сидит/2400 Town 42 72 1 jane_smoking/2440 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Fri": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3 jane_smoking/900 JojaMart 22 25 1/1100 Town 107 52 0/1200 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 JojaMart 12 24 3/1600 JojaMart 22 25 1/1800 JojaMart 26 15 3/1900 Saloon 43 19 3/2100 Saloon 43 19 3 сидит/2300 Saloon 43 19 3 сидит/2400 Town 39 73 1 jane_smoking/2440 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Sat": "0 Custom_Claire_WarpRoom 1 3 3/1200 BusStop 27 18 3 jane_smoking/1300 Town 8 19 2 jane_reading/1600 Town 8 19 2 jane_reading/1800 Town 6 17 2 jane_reading/2000 Beach 20 24 2/2100 Beach 44 35 1 jane_smoking/2300 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "spring_Sun": "0 Custom_Claire_WarpRoom 1 3 3/1000 BusStop 27 18 3 jane_smoking/1100 Beach 12 38 2/1300 Beach 11 31 3/1400 Beach 52 23 1/1600 Saloon 16 20 0/1800 Saloon 25 18 0/2000 Saloon 43 19 3 сидит/2100 Saloon 34 18 3/2300 Saloon 38 19 2/2400 Saloon 43 19 3 сидит/2500 Saloon 29 7 3",
+
+  "summer": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Mon": "0 Custom_Claire_WarpRoom 1 3 3/1000 BusStop 27 18 3 jane_smoking/1100 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 Town 107 52 0/1600 JojaMart 22 25 1/1800 JojaMart 22 25 1/2000 Town 92 51 3 jane_smoking/2030 Custom_DayEnd_WarpRoom 3 3 0/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Tue": "0 Custom_Claire_WarpRoom 1 3 3/1100 BusStop 27 18 3 jane_smoking/1200 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 JojaMart 9 4 0/1600 JojaMart 9 4 0/1800 JojaMart 9 4 0/2000 Town 92 51 3 jane_smoking/2030 Custom_DayEnd_WarpRoom 3 3 0/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Wed": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3 jane_smoking/900 JojaMart 22 25 1/1100 Town 107 52 0/1200 JojaMart 12 24 3/1300 JojaMart 26 15 3/1400 JojaMart 18 5 0/1600 JojaMart 23 5 0/1800 JojaMart 26 5 0/2000 JojaMart 9 4 0/2100 JojaMart 22 25 1/2300 JojaMart 22 25 1/2400 Town 92 51 3 jane_smoking/2430 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Thu": "0 Custom_Claire_WarpRoom 1 3 3/900 BusStop 27 18 3 jane_smoking/1000 JojaMart 22 25 1/1200 JojaMart 22 25 1/1300 JojaMart 22 25 1/1400 JojaMart 22 25 1/1600 JojaMart 22 25 1/1800 Town 92 51 3 jane_smoking/1830 Town 53 22 0/2300 Town 56 21 0/2400 Town 50 22 1 jane_smoking/2440 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Fri": "0 Custom_Claire_WarpRoom 1 3 3/800 BusStop 27 18 3 jane_smoking/900 JojaMart 22 25 1/1100 Town 107 52 0/1200 JojaMart 22 25 1/1300 Custom_DayEnd_WarpRoom 3 3 0/1400 JojaMart 12 24 3/1600 JojaMart 22 25 1/1800 JojaMart 26 15 3/1900 Saloon 43 19 3/2100 Saloon 43 19 3 сидит/2300 Saloon 43 19 3 сидит/2400 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Sat": "0 Custom_Claire_WarpRoom 1 3 3/1200 BusStop 27 18 3 jane_smoking/1300 Town 8 19 2 jane_reading/1400 Town 8 19 2 jane_reading/1600 Town 8 19 2 jane_reading/1800 Town 6 17 2 jane_reading/2000 Beach 20 24 2/2100 Beach 44 35 1 jane_smoking/2300 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+  "summer_Sun": "0 Custom_Claire_WarpRoom 1 3 3/1000 BusStop 27 18 3 jane_smoking/1100 SeedShop 2 21 3/1300 SeedShop 12 20 0/1400 Forest 29 14 0/1700 Forest 27 18 2 jane_reading/2100 Forest 36 10 1/2300 Forest 38 15 2/2400 Custom_DayEnd_WarpRoom 3 3 0/2500 Custom_DayEnd_WarpRoom 3 3 0",
+
+
+  
   //
 
-  "fall": "1000/2100",
-  "fall_Mon": "1000/2100",  
-  "fall_Tue": "1100/2100",
-  "fall_Wed": "800/2500",
-  "fall_Thu": "900/2500",
-  "fall_Fri": "800/2500",
-  "fall_Sat": "1200/2500",
-  "fall_Sun": "1000/1800",
+  "fall": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Mon": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",  
+  "fall_Tue": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Wed": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Thu": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Fri": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Sat": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "fall_Sun": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
 
-  "winter": "1000/2100",
-  "winter_Mon": "1000/2100",
-  "winter_Tue": "1100/2100",
-  "winter_Wed": "800/2500",
-  "winter_Thu": "900/2500",
-  "winter_Fri": "800/2500",
-  "winter_Sat": "1200/2500",
-  "winter_Sun": "1000/1800",
+  "winter": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Mon": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Tue": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Wed": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Thu": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Fri": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Sat": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "winter_Sun": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 18 25 1/2100 Custom_DayEnd_WarpRoom 3 3 0",
 
-  "rain": "800 JojaMart 18 25 1/2100 BusStop 24 11 0",
-  "rain2": "800 JojaMart 18 25 1/2100 BusStop 24 11 0"
+  "rain": "0 Custom_Claire_WarpRoom 1 3 3/900 BusStop 27 18 3 jane_smoking/1000 JojaMart 22 25 1/1200 JojaMart 22 25 1/1300 JojaMart 22 25 1/1400 JojaMart 22 25 1/1600 JojaMart 22 25 1/1800 Town 92 51 3 jane_smoking/1900 Custom_DayEnd_WarpRoom 3 3 0/2100 Custom_DayEnd_WarpRoom 3 3 0",
+  "rain2": "0 Custom_Claire_WarpRoom 1 3 3/900 BusStop 27 18 3/1000 Custom_DayEnd_WarpRoom 3 3 0/1030 Custom_DayEnd_WarpRoom 3 3 0"
 
 }

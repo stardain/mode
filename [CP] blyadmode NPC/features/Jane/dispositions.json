@@ -39,17 +39,18 @@
 				//"WinterStarParticipant": true, 
 				//"UnlockConditions": false, 
 				//"SpawnIfMissing": true, 
-				"Home": [ 
+				"Home": [
 					{
-						"Id": "Default", 
-						"Location": "BusStop", 
-						"Tile": {
-							"X": 27, 
-							"Y": 18 
-						},
-						"Direction": "left"
+					  "Id": "FlashShifter.StardewValleyExpandedCP_Claire_WarpRoom",
+					  "Condition": null,
+					  "Location": "Custom_Claire_WarpRoom",
+					  "Tile": {
+						"X": 3,
+						"Y": 3
+					  },
+					  "Direction": "down"
 					}
-				],
+				  ],
 				//"Appearance": null, 
 				//"MugShotSourceRect": null, 
 				//"Size": {
